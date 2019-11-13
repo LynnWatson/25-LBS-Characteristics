@@ -1,0 +1,22 @@
+初始电压0.16	0.09	0.14	0.11	0.13
+						float curve1=-3.859*(num)*(num)*(num);//A201 25lbs sensor19 2019.9.29
+						float curve2=38.33*(num)*(num)+21.6*(num)-4.497;
+						float curve3=curve1+curve2;
+
+						float curve4=-18.05*(num)*(num)*(num);//A201 25lbs sensor28 2019.9.29
+						float curve5=77.66*(num)*(num)-13.41*(num)+0.476;
+						float curve6=curve4+curve5;
+
+						float curve7=14.83*(num)*(num)*(num);//A201 25lbs sensor6 2019.9.29
+						float curve8=14.74*(num)*(num)+19.19*(num)-3.255;
+						float curve9=curve7+curve8;
+
+						float curve10=-6.793*(num)*(num)*(num);//A201 25lbs sensor7 2019.9.29
+						float curve11=44.1*(num)*(num)+25.47*(num)-3.777;
+						float curve12=curve10+curve11;
+
+						float curve13=-7.45*(num)*(num)*(num);//A201 25lbs sensor30 2019.9.29
+						float curve14=64.36*(num)*(num)+3.48*(num)-1.236;
+						float curve15=curve13+curve14;
+按顺序1 2 3 4 5 .
+传感器对应顺序19 28 6 7 30
